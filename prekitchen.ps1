@@ -22,4 +22,4 @@ driver:
     security_group_ids: $mysg
     subnet_id: $mysubnet
 "
-Set-Content -Path .\\.kitchen.local.yml $entries
+Set-Content -Path .\\kitchen.local.yml $entries
