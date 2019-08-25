@@ -44,7 +44,7 @@ platforms:
 #
   - name: centos-6
     transport:
-      username: root
+      username: centos
       ssh_key: ~/.ssh/bagio-training.pem
     driver_config:
       user_data: ./kitchen_user_data
