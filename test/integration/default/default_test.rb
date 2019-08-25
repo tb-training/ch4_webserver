@@ -19,6 +19,6 @@ end
 
 ## case insensitive match
 ##
-describe command('curl localhost') do
+describe command('curl localhost:8080') do
   its('stdout') {should cmp /hello/i}
 end
